@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="/nowjs/now.js"></script>
+    <script type="text/javascript" src="/includes/js/main.js"></script>
+    <title>ONLINE VIEWER</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!--    <link href="includes/css/main.css" rel="stylesheet"/>
+      -->
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div id="login page">
+      <script type="text/javascript" src="./includes/js/fb.js"></script>
+      <!--
+	  <div class="fb-login-button" data-show-faces="true" data-width="300" data-max-rows="1"></div>
+	  -->
+      <div id="auth-status">
+        <div id="auth-loggedout">
+          <div id="auth-loginlink">Login</div>
+        </div>
+        <div id="auth-loggedin" style="display:none">
+          Hi, <span id="auth-displayname"></span>  
+	  <div id="profileActions">
+            <button id="createViewer">Create and invite contacts</button>
+            <button id="myViewers">My Viewers</button>
+            <button id="otherViewers">Other Viewers</button>
+	    <div id="mainContent"><div id="viewerCreator"></div><div id="slides"></div></div>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>
